@@ -1,0 +1,5 @@
+your_email = input("Your Email: ").lower()
+email_index = your_email.split("@")
+print(type(email_index))
+print(f"Your name is {email_index[0]}")
+print(f"Your domain is {email_index[1]}")
