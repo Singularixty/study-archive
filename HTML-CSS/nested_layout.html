@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Layout Technique</title>
+    <style>
+        body{
+            background-color: rgb(24, 24, 24);
+        }
+        .video-thumbnail{
+            margin-bottom: 10px;
+        }
+        .thumbnail{
+            width: 350px;
+            border-radius: 5px;
+        }
+        .channel-logo{
+            width: 100%;
+            vertical-align: top;
+            border-radius: 25px;
+            
+        }
+        .video-stats p{
+            font-family: 'Kanit';
+            color: white;
+            width: 280px;
+        }
+        .video-info{
+            display: inline-block;
+            width: 350px;
+        }
+        .channel-icon{
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+        }
+        .video-stats{
+            display: inline-block;
+            margin-top: 0px;
+        }
+        .video-stats p{
+            margin-top: 0px;
+            margin-bottom: 3px;
+            margin-left: 8px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="video-thumbnail">
+            <img class="thumbnail" src="src/img/24-7-365-thumbnail.jpg" alt="Youtube Thumbnail">
+        </div>
+        <div class="video-info">
+            <div class="channel-icon">
+                <img class="channel-logo" src="src/img/channel-logo.jpg" alt="">
+            </div>
+            <div class="video-stats">
+                <p class="video-title">24/7 365</p>
+                <p class="video-author">Elijah woods</p>
+                <p class="video-stat">24.3M views &centerdot; 1 year ago</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

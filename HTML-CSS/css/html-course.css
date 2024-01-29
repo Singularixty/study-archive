@@ -1,0 +1,36 @@
+p, button{
+    @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@300&family=Nunito&family=Prompt&display=swap');
+    font-family: 'Kanit';
+    margin: 0 0 0 0;
+}
+
+.course-title{
+    font-size: 25px;
+}
+
+.course-level{
+    font-size: 15px;
+    color: rgb(86, 86, 86);
+    margin-bottom: 13px;
+}
+
+.course-description{
+    width: 300px;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.view-course{
+    font-family: 'Kanit';
+    background-color: rgb(6, 174, 31);
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    padding: 5 10 5 10;
+    text-align: center;
+}
+
+.view-course:hover{
+    background-color: rgb(5, 147, 26);
+}

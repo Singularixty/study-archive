@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: rgb(23, 23, 23);
+}
+
+.follow_box {
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: rgb(48, 48, 48);
+    border-color: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    margin: auto;
+}
+
+.user_profile {
+    width: 100px;
+    height: 100%;
+}
+
+.profile_picture {
+    vertical-align: bottom;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+}
+
+.user_info {
+    width: 200px;
+    color: white;
+}
+
+.user_info p{
+    margin: 0px;
+}
+
+.user-name {
+    display: inline-block;
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.user-role {
+    font-family: 'Poppins';
+    color: rgb(189, 189, 189);
+}
+
+.user-bio{
+    font-family: 'Poppins';
+    color: rgb(189, 189, 189);
+    font-size: 10px;
+}
+
+.FollowButton {
+    color: white;
+    background-color: rgb(46, 120, 205);
+    border: 4px solid rgb(46, 120, 205);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

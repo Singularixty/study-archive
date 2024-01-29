@@ -1,0 +1,35 @@
+*{
+    font-family: 'Kanit';
+}
+body{
+    background-color: #1f1f1f;
+}
+
+.email{
+    background-color: transparent;
+    width: 1000px;
+    border: 2px solid #444746;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+}
+
+.email-author{
+    color: rgb(255, 255, 255);
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
+
+.email-address{
+    color: #bfbfbf;
+}
+
+.email-date{
+    color: #bfbfbf;
+    font-size: 13px;
+    margin: 0 0 0 12;
+}
+
+.email-detail{
+    padding: 12px;
+    color: #d8d8d8;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@300&family=Nunito&display=swap');
+.SubscribeButton{
+    font-family: 'Kanit', sans-serif;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(196, 0, 0);
+    border: 1px solid rgb(196, 0, 0);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+}
+.SubscribeButton:hover{
+    background-color: rgb(168, 2, 2) ;
+    
+}
+
+.JoinButton{
+    font-family: 'Kanit', sans-serif;
+    height: 50px;
+    width: 140px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 114, 196);
+    border-radius: 5px;
+    color: rgb(0, 114, 196);
+    text-align: center;
+    font-size: medium;
+    margin-left: 8px;
+    cursor: pointer;
+    box-shadow: 5 5 10 rgba(0, 0, 0, 0.5);
+}
+.JoinButton:hover{
+    background-color: rgb(240, 240, 240) 
+}
+
+.SignInButton{
+    font-family: 'Kanit', sans-serif;
+    font-size: medium;
+    height: 50px;
+    width: 130px;
+    margin-left: 8px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 2px;
+    transition: border 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    cursor: pointer;
+    box-shadow: 5 5 10 rgba(0, 0, 0, 0.5);
+}
+
+.SignInButton:hover{
+    background-color: rgb(228, 170, 10);
+    border: 1px solid rgb(228, 170, 10);
+}
+
+.AddToCartButton{
+    font-family: 'Kanit', sans-serif;
+    height: 50px;
+    width: 150px;
+    color: rgb(29, 29, 29);
+    background-color: rgb(255, 215, 20);
+    border: 1px solid rgb(255, 215, 20);
+    border-radius: 25px;
+    margin-left: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: border 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    box-shadow: 5 5 10 rgba(0, 0, 0, 0.5);
+}
+
+.AddToCartButton:hover{
+    background-color: rgb(228, 193, 14);
+    border: 1px solid rgb(228, 193, 14);
+}
+
+.SaveButton{
+    font-family: 'Kanit', sans-serif;
+    height: 50px;
+    width: 150px;
+    background: rgb(10, 124, 194);
+    cursor: pointer;
+    border: 1px solid rgb(10, 124, 194);
+    border-radius: 25px ;
+    margin-left: 8px;
+    font-size: 18px;
+    color: white;
+    transition: border 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    box-shadow: 5 5 10 rgba(0, 0, 0, 0.5);
+}
+
+.SaveButton:hover{
+    background: rgb(7, 99, 156);
+    border: 1px solid rgb(7, 99, 156);
+}

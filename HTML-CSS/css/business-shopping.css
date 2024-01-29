@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+    font-family: 'Kanit';
+    margin: 0;
+}
+
+.head{
+    font-family: 'Kanit';
+    font-weight: bold;
+    font-size: 30px;
+    margin: 14px;
+}
+
+.description{
+    margin: 14px;
+    color: rgb(92, 92, 92);
+    font-size: 15px;
+}
+
+.learn-more{
+    color: rgb(1, 127, 190);
+}
+
+.learn-more:hover{
+    color: rgb(0, 106, 159);
+    text-decoration: underline;
+}
