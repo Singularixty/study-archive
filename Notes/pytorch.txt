@@ -1,0 +1,47 @@
+- Machine Learning is turning things in numbers and find the pattern in those numbers
+
+- Artificial Intelligence -> Machine Learning -> Deep Learning
+
+- Traditional Programming & Machine Learning are diffirent
+ - TP: Inputs + Rules = Output (Make)
+ - ML: Inputs (AKA. Features) + Desired Output (AKA. Labels) = Rules (Figure out pattern) 
+
+- Purpose of Machine Learning:
+    - For Complex Rules. But if you can build a simple-rule
+    based system that does not require ML, do that.
+    - ML can adapt/learn to new scenarios.
+    - Insights and large data. 
+
+- Machine Learning vs. Deep Learning
+    - ML: For structured Data, such as, table, etc. (Algorithm: gradient boosted machine,
+     dmlc XGBoost)
+    - DL: for Unstructured Data, such as, twitter post, wikipedia, images, audio, etc. 
+    (Algorithm: Neural Network)
+
+- Common Algorithms used in ML: Random Forest, Graident Boosted Models, Naive Bayes,
+    support vector machine, etc.
+- Common Algorithms used in DL: Neural Networks, Fully-connected Neural Networks, 
+    Convolutional Neural Network, Recurrent Neural Network, Transformer, etc.
+
+- Neural Network:
+    - Input: images, audio, text, etc.
+    - Numberical Encoding: Data turned into number for computer understanding
+    - Learning Representation: Patterns, Features, Weights
+    - Representation Output: This is the internal representation of the input data that the neural network 
+    has learned. It's a set of features and patterns that the network has identified as relevant 
+    for making predictions or generating output.
+    - Output: Human readable output, such as, "Hello!", Image.png, etc.
+    [Order]: Input -> Numberical Encoding -> Learning Representation -> Representation Output -> Output
+
+- Anatomy of Neural Network:
+    - Input Layer: Input of the data (#unit/neuron = 2)
+    - Hidden Layer: Learn Pattern of the data (#unit/neuron = 3 or more)
+    - Output Layer: outputs that learned representation/prediction possibilities (#unit/neuron = 1)
+    Input Layer -> Hidden Layer(s) -> Output Layer
+
+- Types of Learning
+    - Supervised Learning
+    - Self-Supervised & Unsupervised Learning
+    - Transfer Learning
+
+- Method is easy, Just give reward if it did good, else no reward.
