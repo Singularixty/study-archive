@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@500;600&family=Montserrat:wght@500&display=swap');
+
+    body {
+      margin: 0;
+      background-color: #1d1d1d;
+    }
+
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+    .sub-container {
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      gap: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    @media screen and (min-width: 1920px) {
+      .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .card,.static-card,.sub-card {
+      background-color: #242424;
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: relative;
+      transition: background-color 0.3s ease;
+    }
+
+    .sub-card{
+        margin-top: 5px;
+        background-color: #323232;
+        margin-bottom: 3px;
+    }
+
+    .card:hover {
+      background-color: #313131;
+      cursor: pointer;
+    }
+    .sub-card:hover{
+      background-color: #464646;
+      cursor: pointer;
+    }
+
+    .static-card h3,.sub-card h3,.card h3 {
+      color: white;
+      font-weight: bold;
+      margin: 5px 5px 5px 5px;
+      width: auto;
+    }
+
+    .static-card p,.sub-card p,.card p {
+      color: white;
+      font-weight: thin;
+      margin-top: 5px;
+      margin-left: 5px;
+      width:auto;
+    }
+
+    .download-button{
+        color: white;
+    }
+
+    .recommend{
+      padding: 5px;
+      margin-right: 9px;
+      border-radius: 5px;
+      background-color: rgb(17, 108, 206);
+    }
