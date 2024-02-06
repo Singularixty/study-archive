@@ -12,7 +12,7 @@ int main(){
     return 0;
 }
 
-void bubble_sort(int unsorted_array[], int unsorted_array_size){
+void bubble_sort(std::string unsorted_array[], int unsorted_array_size){
     int temp;
     for (int i = 0; i < unsorted_array_size - 1; i++){
         for (int j = 0; j < unsorted_array_size - i - 1; j++){
