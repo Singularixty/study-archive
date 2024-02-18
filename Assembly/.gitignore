@@ -1,0 +1,28 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Ignore any file or directory named "build"
+/build
+
+# Ignore any file or directory named "bin"
+/bin
+
+# Ignore any file or directory named "obj"
+/obj
+
+# Ignore any file or directory created by IDEs or text editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore any files generated during the build process
+*.log
+*.tmp
+*.tmp.*

@@ -1,0 +1,33 @@
+# Compiled JavaScript files
+*.js
+*.js.map
+
+# Compiled TypeScript declaration files
+*.d.ts
+
+# Directory for TypeScript build output
+/dist/
+
+# Node modules
+node_modules/
+
+# Editor-specific files
+.vscode/
+
+# Environment variables file
+.env
+
+# TypeScript configuration file
+tsconfig.json
+
+# Package lock file for npm
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Dependency directories
+pids
+logs
+*.pid
+*.log

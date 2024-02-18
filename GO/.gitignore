@@ -1,0 +1,33 @@
+# Compiled Object files
+*.o
+*.exe
+
+# Compiled Binary
+*.exe
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore any file or directory named "bin"
+/bin/
+
+# Ignore any file or directory named "pkg"
+/pkg/
+
+# Ignore any file or directory named "vendor"
+/vendor/
+
+# Ignore go generated files
+*.test
+*.prof
+
+# Ignore any file or directory created by IDEs or text editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore any files generated during the build process
+*.log
+*.tmp
+*.tmp.*
