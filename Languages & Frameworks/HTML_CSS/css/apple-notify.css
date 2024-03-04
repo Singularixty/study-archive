@@ -1,0 +1,22 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.apple-notification{
+    background-color: rgb(224, 48, 48);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.apple-direct{
+    font-weight: bold;
+    color: white;
+    text-decoration-color: white;
+}
+
+.apple-direct:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

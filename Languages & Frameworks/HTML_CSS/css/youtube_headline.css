@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans+Thai:wght@300&family=Nunito&display=swap');
+p{
+    font-family: 'Kanit', sans-serif;
+}
+.video-title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 315px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.video-views-count{
+    font-size: 14px;
+    color: rgb(63, 63, 63);
+    margin-top: 0px;
+}

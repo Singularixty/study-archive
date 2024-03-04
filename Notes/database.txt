@@ -1,9 +1,0 @@
-- Data Structure Concept
-    - Database (COURSE FILE, FINANCIAL FILE, PERSONAL FILE)
-    - File (A file contains data)
-    - Record (Info -> e.g. Student_ID, Grade)
-    - Field
-    - Byte
-    - Bit
-- Extra: 1 Byte represents 8 bits which is 2^8 or 256 status
-- 

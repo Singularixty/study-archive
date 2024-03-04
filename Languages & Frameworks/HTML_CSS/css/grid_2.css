@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: #f0f0f0;
+}
+body p,h1{
+    font-family: 'Montserrat';
+}
+.recommended-users{
+    display: grid;
+    grid-template-columns:repeat(2, auto);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 50px;
+    height: auto;
+}
+
+.user-card{
+    background-color: transparent;
+    border-color: gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.user-image{
+    width: 100%;
+}
+
+.user-info{
+    padding: 10px;
+    margin-left: 8px;
+}
+
+.user-name{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.user-mutual-info{
+    display: grid;
+    background-color: transparent;
+    grid-template-columns: 50px 1fr;
+}
+
+.user-mutual-image{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.total-mutual-friends{
+    color: rgb(53, 53, 53);
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+
+.addfriend-btn{
+    margin-top: 10px;
+    background-color: rgb(2, 124, 216);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: bold;
+}
