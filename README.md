@@ -1,2 +1,4 @@
 # Study Archive
-exercises, practices, projects and notes I took during self-taught or studying in classes. Feel free to download or fork my repository if you wish to learn about it!
+- Exercises, practices, projects and notes I took during self-taught or studying in classes
+- This archive includes multiple programming languages and resources for Computer Science
+- Feel free to download or fork my repository if you wish to learn about it!
