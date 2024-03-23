@@ -3,8 +3,8 @@
 #include <ctype.h>
 
 void Grading(int cpI, int mtepI, int fepI){
-    // Checker if inputs are only digits
-    if ()
+    int i, checker
+    
     int MaxScore = 100;
     int TScore = cpI + mtepI = fepI
 }
