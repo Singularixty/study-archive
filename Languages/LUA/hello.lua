@@ -1,2 +1,1 @@
-local text = "Hello World"
-print(text)
+print("Hello World")
