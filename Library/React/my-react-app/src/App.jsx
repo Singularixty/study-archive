@@ -4,6 +4,8 @@ import Food from './Food.jsx'
 import Card from './card.jsx'
 import Button from './button/Button.jsx'
 import InlineStyleButton from './Inlinecss.jsx'
+import Student from './student.jsx'
+import UserGreeting from './UserGreet.jsx'
 function App() {
   return(
     <>
@@ -14,6 +16,9 @@ function App() {
     <InlineStyleButton/>
     <Button/>
     <Footer/>
+    <Student name="Singularixty:D" age={30} Student={true}/>
+    <Student name="RobloxPro" />
+    <UserGreeting isLoggedIn={false} username="Singularixty"/>
     </>
   );
 }
