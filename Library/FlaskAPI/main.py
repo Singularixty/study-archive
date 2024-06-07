@@ -5,6 +5,8 @@ app = Flask(__name__)
 @app.route('/home')
 def home():
     return jsonify({'success': True})
+def test():
+    return jsonify({'success': True})
 @app.route('/2023summary/<int:daynum>')
 def retrieve_day_report(daynum):
     with open('./bin/practice_data_2023.csv') as file:
