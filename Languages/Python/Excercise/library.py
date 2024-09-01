@@ -1,4 +1,4 @@
-# OOP exercise 1
+# OOP exercise 2
 class Book():
     def __init__(self, title, author):
         self.title = title

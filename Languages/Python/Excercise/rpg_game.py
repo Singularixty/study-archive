@@ -1,4 +1,4 @@
-# OOP exercise 2
+# OOP exercise 3
 class Player():
     def __init__(self, name, health, weapon):
         self.name = name
