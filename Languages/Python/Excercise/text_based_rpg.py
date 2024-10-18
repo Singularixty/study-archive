@@ -1,10 +1,16 @@
+import random
+
+crit_chance = random.random()
+print(crit_chance)
+
 class Item:
-    def __init__(self, name, damage, durability):
+    def __init__(self, name, damage, durability, crit_chance):
         self.name = name
         self.DMG = damage
         self.DURABILITY = durability
+        self.CRITICAL_CHANCE = crit_chance
 
-default_fist = Item("Fist", 1, 9999999)
+default_fist = Item("Fist", 1, 9999999, 0.2)
 
 class Player:
     def __init__(self, name, item=None):
@@ -19,6 +25,9 @@ class Player:
     def Attack(self, target):
         if self.ITEM.DURABILITY > 0:
             damage_dealt = self.ITEM.DMG
+            if random.random() < self.ITEM.CRITICAL_CHANCE:
+                #print("CRITICAL!")
+                damage_dealt = self.ITEM.DMG * (random.uniform(1.4, 3.0))
             target.TakeDamage(self.name, damage_dealt)
             self.ITEM.DURABILITY -= 1
             print(f"{self.name} attacked {target.name} for {damage_dealt} DMG!")
@@ -28,9 +37,9 @@ class Player:
     def TakeDamage(self, monster_name, damage):
         total_damage = damage - self.DEF
         self.HP -= total_damage
-        print(f"{monster_name} attacked {self.name} for {total_damage} DMG! Remaining HP: {self.HP}")
+        print(f"{monster_name} attacked {self.name} for {total_damage} DMG!, Remaining HP: {self.HP}")
 
-Dragon_Sword = Item("Dragon Sword", 10, 200)
+Dragon_Sword = Item("Dragon Sword", 10, 200, 0.34)
 Player_1 = Player("Sigular")
 Player_2 = Player("Sigular2", Dragon_Sword)
 
