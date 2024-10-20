@@ -2,7 +2,7 @@ import random
 
 def RollDice(n):
     dices_result = []
-    for _ in range(n):
+    for _ in range(n):  
         roll = random.randint(1, 6)
         dices_result.append(roll)
     return dices_result
